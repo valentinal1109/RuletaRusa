@@ -10,7 +10,19 @@ package ruletarusa;
  */
 public class jugador {
     public String nombre;
-   public jugador(pistol RevolverMain);
+    
+    Revolver arma= new Revolver();
+    
+    //------------- metodos ----
    
+    public String getNombre()
+    {
+      return nombre;
+    }
+    
+     public void setNombre(String nom)
+    {
+      nombre = nom;
+    }
 }
 
