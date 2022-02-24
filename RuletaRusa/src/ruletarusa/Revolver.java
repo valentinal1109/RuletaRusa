@@ -12,16 +12,16 @@ public class Revolver {
     
     int[] tambor = new int[6];
     
-    //---------------------------------------------------
+    //-----------------------METODOS-----------------------
+    //---------Cargar-----------------
     
     public void cargar (int[] tambor){
     
-    for(int i=0;i<6;i++)
-    {
+    for(int i=0;i<6;i++){
         tambor[i]= 0;
     }
     int min = 0;
-    int max = 5; 
+    int max = 5;  
    
     int posicion_bala = (int)Math.floor(Math.random()*(max-min+1)+min);
       
@@ -29,12 +29,11 @@ public class Revolver {
     
     }
     
-    //----------------------------------------------
+    //---------Disparar-------------------
     
    public boolean disparar(int[] tambor){
        
-       if (tambor[0]==1)
-       {
+       if (tambor[0]==1){
          return true;
        }
        else{
