@@ -10,19 +10,43 @@ package ruletarusa;
  */
 public class jugador {
     public String nombre;
+    public boolean vivo;
     
     Revolver arma= new Revolver();
     
     //------------- metodos ----
    
-    public String getNombre()
-    {
+    public String getNombre(){
       return nombre;
     }
     
-     public void setNombre(String nom)
-    {
-      nombre = nom;
+     public void setNombre(String nom){
+      this.nombre = nom;
     }
+<<<<<<< HEAD
+
+    
+=======
+    
+    public boolean vivir(){ 
+        
+    
+    
+    }
+ 
+         
+   
+     
+     
+     
+     
+     
+     }
+     
+     
+     
+     
+     
+>>>>>>> 5b6682090d3582a960bef2becf0e04bb30f033dd
 }
 
